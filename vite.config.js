@@ -5,6 +5,7 @@ const { createVuePlugin } = require('vite-plugin-vue2');
 const { resolve } = require('path')
 
 module.exports = {
+  base: './', //Add as VITE_BASE_URL on env later
   plugins: [createVuePlugin()],
   resolve: {
     alias: {
