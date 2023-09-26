@@ -1,0 +1,24 @@
+{
+  "author": "Agustin Rujana",
+  "name": "vue-2-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AgustinRujana/vue-2-base.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",    
+    "vue-template-compiler": "^2.7.14",
+    "vue-i18n": "^8",
+    "vue-i18n-composable": "v2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9",
+    "vite-plugin-vue2": "^2.0.3"
+  }
+}
