@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    Test
     <WelcomeMessage :msg="$t('welcome')" />
   </div>
 </template>
