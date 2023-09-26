@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="flex h-full w-full items-center justify-center">
     <WelcomeMessage :msg="$t('welcome')" />
   </div>
 </template>
